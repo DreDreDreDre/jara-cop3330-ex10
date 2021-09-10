@@ -26,10 +26,10 @@ public class App
 
         System.out.print("Enter the price of item 1: ");
         buf = sc.nextLine();
-        item1price = Double.valueOf(buf);
+        item1price = Double.parseDouble(buf);
         System.out.print("Enter the quantity of item 1: ");
         buf = sc.nextLine();
-        item1count = Integer.valueOf(buf);
+        item1count = Integer.parseInt(buf);
 
         System.out.print("Enter the price of item 2: ");
         buf = sc.nextLine();
